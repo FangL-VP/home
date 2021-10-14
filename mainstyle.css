@@ -72,6 +72,15 @@ a:hover {
   clear: both;
 }
 
+.video {
+  text-align: center;
+}
+
+.video > iframe {
+  width: 50vw;
+  height: 28vw;
+}
+
 .websites {
   font-size: 20px;
 }
