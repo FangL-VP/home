@@ -8,7 +8,15 @@ body {
 }
 
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   margin-top: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top-color: #999;
+  border-top-width: 1px;
+  border-top-style: solid;
 }
 
 h1 {
@@ -27,12 +35,26 @@ h2 {
   border-top-style: solid;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 ol,
 ul,
 p {
   font-size: 18px;
   font-weight: bold;
   line-height: 1.4; /* Line spacing */
+}
+
+a {
+  color: #70ad47;
+  word-break: break-all;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Formatting for all images. */
@@ -55,11 +77,12 @@ p {
 }
 
 .validators {
-  height: 75px;
+  height: 40px;
+  padding: 4px 8px;
   border-color: black;
-  border-width: 4px;
+  border-width: medium;
   border-style: solid;
-  margin-bottom: 2%;
+  background-color: white;
 }
 
 /* Banner at top of the page */
@@ -73,7 +96,7 @@ p {
 
 #content {
   margin: 0 auto;
-  max-width: 960px; 
+  max-width: 960px;
 }
 
 #quote {
@@ -112,9 +135,4 @@ p {
 #navigation > ul > li > a:hover {
   background-color: #999;
   color: white;
-}
-
-#works-cited > a {
-  font-size: 20px;
-  color: #333;
 }
