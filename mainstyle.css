@@ -1,8 +1,10 @@
+/* CSS Page */
+
 body {
-  max-width: 1920px;
+  max-width: 1920px; /* Maximum page width */
   background-color: #ffeeda;
   font-family: Raleway, sans-serif;
-  margin: 0 auto;
+  margin: 0 auto; /* Align horizontally in the center */
 }
 
 footer {
@@ -30,9 +32,10 @@ ul,
 p {
   font-size: 18px;
   font-weight: bold;
-  line-height: 1.4;
+  line-height: 1.4; /* Line spacing */
 }
 
+/* Formatting for all images. */
 .image {
   border-color: black;
   border-width: medium;
@@ -40,7 +43,7 @@ p {
   margin-left: 32px;
   margin-bottom: 32px;
   height: 250px;
-  float: right;
+  float: right; /* Text wrapping around image */
 }
 
 .clear {
@@ -59,6 +62,7 @@ p {
   margin-bottom: 2%;
 }
 
+/* Banner at top of the page */
 #banner {
   height: 400px;
   background-image: url(Banner.jpg);
@@ -69,13 +73,14 @@ p {
 
 #content {
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 960px; 
 }
 
 #quote {
   font-style: italic;
 }
 
+/* Everything below is for navigation bar. */
 #navigation {
   text-align: center;
   border-bottom-color: #d3d3d3;
@@ -86,7 +91,7 @@ p {
 }
 
 #navigation > ul {
-  display: inline-flex;
+  display: inline-flex; /* Align navigation/menu bar to the center */
   margin: 0;
   padding: 0;
   font-size: 14px;
